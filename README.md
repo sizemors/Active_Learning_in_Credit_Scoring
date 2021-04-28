@@ -31,14 +31,12 @@ This experiment uses following sources, cited in the corresponding scripts:
 Anderson, B., Haller, S., & Siddiqi, N. (2009). Reject inference techniques implemented in credit scoring for SAS enterprise miner. 
 SAS Global Forum, SAS Institute, Inc. 
 
-Bravo, C., Vanden Broucke, S. & Verbraken, T. (2019). EMP: Expected Maximum Profit Classification Performance Measure. R package version 2.0.5. Retrieved 20-04-2021 from  http://cran.r-project.org/web/packages/EMP/index.html
-
-IS Script. (n.d.). R Script: load_lendingclub.R. Humboldt Universität Information Systems, Credit Data Sets Cleaning Functions.
-
 Kottke, D., & Krempl, G. (2015b). OPALgain Python Script. Retrieved 20-04-2021 from https://kmd.cs.ovgu.de/res/opal/OPALgain.py  (from related paper:
 Krempl, G., Kottke, D., & Lemaire, V. (2015b). Optimised probabilistic active learning (OPAL):  For fast, non-myopic, cost-sensitive active classification, Machine Learning, 100(2–3), 449–476.)
 
 Kozodoi, N. (2020). Appendix of Unpublished Manuscript – Submitted to Management Science.
 
 Ramey, J. (2017). Active learning in R Package. Deprecated from CRAN. Retrieved 04-01-2021 from: https://github.com/ramhiser/activelearning
+
+Siddiqi, N. (2012). Credit risk scorecards: developing and implementing intelligent credit scoring. John Wiley & Sons, Inc. 
 
