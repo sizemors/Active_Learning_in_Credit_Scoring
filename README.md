@@ -1,6 +1,6 @@
 # Active_Learning_in_Credit_Scoring
 
-This experiment uses two data sets: LendingClub (default rate of ~7%) and a DGP data set genereated from a synthetic data generating process (default rate of 40%). The LC cleaning code and DGP generating functions are not included here. Use prepared data sets (Step 2 in LC and Step 6 in DGP) below. The DGP experiment borrows some parameter settings from LC. LC should be run first. The experiment also includes calculation of some financial variables from scripts which are not included here. Define: Total Interest of good / TN = 1,128, Expected Loss of bad / FN = 2,704, median funded loan amount = 10,000.
+This experiment uses two data sets: LendingClub (default rate of ~7%) and a DGP data set genereated from a synthetic data generating process (default rate of 40%). The LC cleaning code and DGP generating functions are not included here. Use prepared data sets (Step 2 in LC and Step 6 in DGP) below. The DGP experiment borrows some parameter settings from LC. LC should be run first. The experiment includes calculation of some financial variables from scripts which are not included here. Define: Total Interest of *good* risk / TN = 1,128, Expected Loss of *bad* risk / FN = 2,704, median funded loan amount = 10,000.
 
 To perform the experiment on LC data set, perform these steps in order:
 
