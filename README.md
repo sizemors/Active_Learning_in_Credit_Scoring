@@ -35,7 +35,9 @@ Bravo, C., Vanden Broucke, S. & Verbraken, T. (2019). EMP: Expected Maximum Prof
 
 IS Script. (n.d.). R Script: load_lendingclub.R. Humboldt Universität Information Systems, Credit Data Sets Cleaning Functions.
 
-Kottke, D., & Krempl, G. (2015b). OPALgain Python Script. Retrieved 20-04-2021 from https://kmd.cs.ovgu.de/res/opal/OPALgain.py
+Kottke, D., & Krempl, G. (2015b). OPALgain Python Script. Retrieved 20-04-2021 from https://kmd.cs.ovgu.de/res/opal/OPALgain.py  
+~Related Paper: 
+Krempl, G., Kottke, D., & Lemaire, V. (2015b). Optimised probabilistic active learning (OPAL):  For fast, non-myopic, cost-sensitive active classification, Machine Learning, 100(2–3), 449–476.
 
 Kozodoi, N. (2020). Appendix of Unpublished Manuscript – Submitted to Management Science.
 
