@@ -12,16 +12,9 @@
 #' Related Paper: Krempl, G., Kottke, D., & Lemaire, V. (2015b). Optimised probabilistic active learning (OPAL): 
 #' For fast, non-myopic, cost-sensitive active classification, Machine Learning, 100(2–3), 449–476.
 #' 
-#' This R adaptation matches Python as long as n is smaller than m, and m is not too big otherwise factorial is too big.
+#' This R adaptation matches Python as long as n is smaller than m, and m is not too big.
 #' This adaptation adds a log transformation of the gamma function to avoid exploding when n is large.
 #' 
-#' Note slight differences in notation between this script and thesis / Kottke paper:
-#' tao = FP / (FN+FP) ratio (same)
-#' n = number of labelled instances in cluster (same)
-#' m = number of potential instances in cluster, i.e. number of unlabeled in cluster (same)
-#' p-hat (paper) = pObs (code) = share of positive amongst labeled points in cluster - calculated from cumulative labeled
-#' k (code) = number of positives amongst current labeled instances = n*p-hat (paper)
-#' y (code) = potentially positive # of labeled instances in m (from 1-m) = k (paper)
 
 
 ###################################
@@ -39,7 +32,7 @@ tao <- 1128 / (1128+2704) #Uses financial values from PROFIT_VARIABLES.R script.
 #                                 #
 ###################################
 
-### This is adapted from Python Script. It includes log transformation of gamma function to avoid exploding when n is large.
+
 
 gain <- function(n,k,tao,m,y){
   if(n == 0){
